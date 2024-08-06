@@ -26,6 +26,15 @@ body {
   font-weight: bold;
   background-color: #69be28;
   border-color: #69be28;
+  cursor:pointer;
+  transition:all 0.2s linear;
+}
+
+.btn .button:hover{
+  transform:scale(1.1);
+  background-color:#fff;
+  color:#69be28;
+  border:2px solid #69be28;
 }
 
 .navbar li a,
