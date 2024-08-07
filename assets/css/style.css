@@ -129,6 +129,14 @@ body {
   margin-bottom: 10px;
 }
 
+.aboutSec img{
+  transition:all 0.2s linear;
+}
+
+.aboutSec img:hover{
+  transform:scale(1.1);
+}
+
 .data2 h3 {
   font-size: 20px;
   color: #006a4d;
@@ -172,6 +180,13 @@ body {
   color: #fff;
   padding: 10px 20px;
   border: 2px solid #fff;
+  transition:all 0.2s linear;
+}
+
+.btn-speaker a:hover{
+  transform:scale(1.1);
+  box-shadow:0 0 10px 5px yellow;
+  color:yellow;
 }
 
 figcaption {
