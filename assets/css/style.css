@@ -168,12 +168,20 @@ body {
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid #fff;
+  transition:all 0.2s linear;
+}
+
+.person:hover{
+  border-radius:0;
+  transform:scale(1.1);
+  box-shadow:0 0 0 7px #fff;
 }
 
 .person img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  transition:all 0.1s linear;
 }
 
 .btn-speaker a {
@@ -231,6 +239,14 @@ figcaption {
   width: 40px;
   padding: 7px;
   font-size: 18px;
+  transition:all 0.2s linear;
+}
+
+.footerSec a:hover{
+  background-color:#fff;
+  box-shadow:0 0 5px 5px #fff;
+  color:blue;
+  transform:translateY(-5px);
 }
 
 .footerSec span {
